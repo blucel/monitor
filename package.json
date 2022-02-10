@@ -7,8 +7,12 @@
   "browser": "dist/monitor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup  --config"
+    "build": "rollup  --config",
+    "publish": "sh release.sh"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
