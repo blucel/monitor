@@ -1,12 +1,4 @@
-#!/usr/bin/env sh
-###
- # @Description: 
- # @Version: 2.0
- # @Autor: Seven
- # @Date: 2022-02-10 16:48:39
- # @LastEditors: Seven
- # @LastEditTime: 2022-02-10 16:55:16
-### 
+#!/usr/bin/env sh 
 set -e
 echo "Enter release version: "
 read VERSION
